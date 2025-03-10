@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Page </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        
+        body {
+            background-color: #2a2f32;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .chat-container {
+            background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png);
+        }
+    </style>
+</head>
+<body>
+
+<div class="chat-container max-w-md mx-auto rounded-lg shadow-lg overflow-hidden mt-1">
+    <!-- Header Section -->
+    <div class="bg-gray-800 text-white text-center py-4 font-bold">
+        Guhan
+    </div>
+
+    <!-- Chat Messages -->
+    <div class="p-4 space-y-3">
+        <!-- Sent Message -->
+        <div class="bg-blue-500 text-white text-sm p-3 rounded-lg self-end w-fit ml-auto">
+            Hello Guhan, how are you?
+        </div>
+
+        <!-- Received Message -->
+        <div class="bg-gray-600 text-white text-sm p-3 rounded-lg w-fit">
+            Hi Deepak, I am good. How about you?
+        </div>
+
+        <!-- Sent Message -->
+        <div class="bg-blue-500 text-white text-sm p-3 rounded-lg self-end w-fit ml-auto">
+            I'm fine. I published my website recently
+        </div>
+
+        <!-- Received Message -->
+        <div class="bg-gray-600 text-white text-sm p-3 rounded-lg w-fit">
+            Oh great Guhan! Can you send me the URL?
+        </div>
+
+        <!-- Sent Message -->
+        <div class="bg-blue-500 text-white text-sm p-3 rounded-lg self-end w-fit ml-auto">
+            https://guhan.com
+        </div>
+
+        <!-- Received Message -->
+        <div class="bg-gray-600 text-white text-sm p-3 rounded-lg w-fit">
+            Awesome Guhan, where did you learn?
+        </div>
+
+        <!-- Sent Message -->
+        <div class="bg-blue-500 text-white text-sm p-3 rounded-lg self-end w-fit ml-auto">
+            Revamp MERN course
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
